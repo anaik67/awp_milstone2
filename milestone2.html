@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Online shopping websites</title>
+    
+    <style>
+      * {
+        box-sizing: border-box;
+        
+      }
+
+      html {
+        font: 1.2em/1.4 Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        padding: 0 0 1em;
+      }
+
+      header {
+        background-color: #c2b0e9;
+        color: #07144e;
+        border: 5px solid #000;
+      }
+
+      header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      header a {
+        color: rgb(8, 39, 60);
+        text-decoration: none;
+        display: block;
+        padding: 0.5em 1em;
+        /*border-top: 1px solid #999;*/
+      }
+
+      header .title {
+        font-size: 150%;
+        font-style: italic;
+        font-weight: bold;
+        padding: 1em;
+        color: #07144e;
+      }
+
+      main {
+        padding: 0 1em;
+      }
+
+      .cards {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+      }
+
+      .cards li {
+        border: 1px solid #000;
+        margin-bottom: 1em;
+      }
+
+      .cards h2 {
+        background-color: #ffc7fc;
+        color: #000000;
+        margin: 0;
+        padding: 0.5em 1em;
+      }
+
+      .cards .inner {
+        padding: 0.5em 1em;
+      }
+
+      .sidebar {
+        background-color: #ffc7fc;
+        border: 5px solid #000;
+        padding: 0.5em 1em;
+        color: #000000;
+      }
+      @media screen and (min-width: 40em) {
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header .title {
+  flex: 2
+}
+
+header nav {
+  flex: 1
+}
+
+article {
+  display: cards;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 20px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  flex: 1;
+
+}
+}
+
+@media screen and (min-width: 70em) {
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 20px;
+}
+
+article {
+  margin-bottom: 0;
+}
+
+footer {
+  border-top: 1px solid #ccc;
+  margin-top: 2em;
+}
+}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+    <header>
+      <div class="title">My Website</div>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://www.amazon.in/">Amazon</a>
+          </li>
+          <li>
+            <a href="https://www.flipkart.com/">Flipkart</a>
+          </li>
+          <li>
+            <a href="https://www.nykaa.com/">Nykaa</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+      <article>
+        <h1>online shopping websites</h1>
+        <p>Online shopping sites contain wide variety of goods both high quality and mild quality keeping in mind the level of people.
+           1) There are no national and International Barriers.
+           2) In   online shopping the consumers will be in a demanding  position and suppliers will not be in a commanding position. 
+           3) There is enormous  employment opportunities in online shopping.</p>
+
+        <ul class="cards">
+          <li>
+            <h2>Amazon</h2>
+            <div class="inner">
+              <p>Amazon was founded by Jeff Bezos from his garage in Bellevue, Washington, on July 5, 1994. Initially an online marketplace for books, it has expanded into a multitude of product categories, a strategy that has earned it the moniker The Everything Store.</p>
+            </div>
+          </li>
+          <li>
+            <h2>Flipkart</h2>
+            <div class="inner">
+              <p>Flipkart Private Limited is an Indian e-commerce company, headquartered in Bengaluru, and incorporated in Singapore as a private limited company. The company initially focused on online book sales before expanding into other product categories such as consumer electronics, fashion, home essentials, groceries, and lifestyle products.</p>
+            </div>
+          </li>
+          <li>
+            <h2>Nykaa</h2>
+            <div class="inner">
+              <p>Nykaa is an Indian e-commerce company, founded by Falguni Nayar in 2012 and headquartered in Mumbai. It sells beauty, wellness and fashion products across websites, mobile apps and 100+ offline stores.In 2020, it became the first Indian unicorn startup headed by a woman.</p>
+            </div>
+          </li>
+          <li>
+            <h2>Myntra</h2>
+            <div class="inner">
+              <p>Myntra is a major Indian fashion e-commerce company headquartered in Bengaluru, Karnataka, India. The company was founded in 2007-2008 to sell personalized gift items.</p>
+            </div>
+          </li>
+          <li>
+            <h2>Ajio</h2>
+            <div class="inner">
+              <p>Reliance Retail is an Indian retail company and a subsidiary of Reliance Industries. Founded in 2006, it is the largest retailer in India in terms of revenue. Its retail outlets offer foods, groceries, apparel, footwear, toys, home improvement products, electronic goods, and farm implements and inputs. Apart from physical outlets, the company also sells products on its e-commerce channels. </p>
+            </div>
+          </li>
+
+        </ul>
+      </article>
+      <aside class="sidebar">
+        <p>Have you discovered all of the other excellent shopping websites?</p>
+
+      </aside>
+    </main>
+
+  </body>
+
+</html>
